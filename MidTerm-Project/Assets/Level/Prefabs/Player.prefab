@@ -274,6 +274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3667122829585913304}
   - component: {fileID: 5177620474262496775}
+  - component: {fileID: 8748261126645330456}
   m_Layer: 0
   m_Name: Plane_Su57
   m_TagString: Untagged
@@ -356,3 +357,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!114 &8748261126645330456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8493479810539975436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9cfcd42a7d29446188c19c0296ff3db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShipLoader
+  shipSprites:
+  - {fileID: 7639920559056594766, guid: 5885c137ff25a4ab7b06628410049354, type: 3}
+  - {fileID: 1928079575355512225, guid: 34881fdc574464eb38adad06322a7d18, type: 3}
