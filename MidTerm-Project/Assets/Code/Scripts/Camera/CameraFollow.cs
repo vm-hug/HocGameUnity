@@ -3,13 +3,12 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;
-    public float offsetX = 4f;
+    public float forwardSpeed = 4f;
 
     void LateUpdate()
     {
-        if (target != null)
-        {
-            transform.position = new Vector3(target.position.x + offsetX, transform.position.y, -10f);
-        }
+        if (target == null) return;
+
+        transform.position += new Vector3(forwardSpeed * Time.deltaTime, 0f, 0f);
     }
 }

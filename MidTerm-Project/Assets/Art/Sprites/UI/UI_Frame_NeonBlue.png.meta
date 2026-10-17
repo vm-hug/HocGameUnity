@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2a805d4f6c12041f9b0aa196f4b06ffd
+guid: 56eb3cc5eb37a45fb9665e84e592219b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -761164013740902012
-    second: bottom_xoanen_0
+      213: 6267016826262579605
+    second: UI_Frame_NeonBlue_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bottom_xoanen_0
+      name: UI_Frame_NeonBlue_0
       rect:
         serializedVersion: 2
-        x: 103
-        y: 23
-        width: 757
-        height: 1059
+        x: 0
+        y: 0
+        width: 1124
+        height: 589
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 489b921cc5dcf65f0800000000000000
-      internalID: -761164013740902012
+      spriteID: 599e6c2799ae8f650800000000000000
+      internalID: 6267016826262579605
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      bottom_xoanen_0: -761164013740902012
+      UI_Frame_NeonBlue_0: 6267016826262579605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
